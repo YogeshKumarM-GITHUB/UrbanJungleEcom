@@ -5,6 +5,7 @@ import HeroDetails from "../Components/HeroDetails"
 import OurCategories from "../Components/OurCategories"
 import PopularProducts from "../Components/PopularProducts"
 import PremieDestination from "../Components/PremieDestination"
+import ReadyToFind from "../Components/ReadyTofind"
 import TrendingProducts from "../Components/TrendingProducts"
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <PremieDestination/>
             <PopularProducts/>
             <CustomerSays/>
+            <ReadyToFind/>
         </div>
     )
 }
